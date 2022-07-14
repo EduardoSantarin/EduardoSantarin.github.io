@@ -1,0 +1,118 @@
+body{
+    background-color: #f4f4f4;
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: blue;
+}
+
+#main-header{
+    background-color: teal;
+    color: #f4f4f4;
+    
+}
+
+#navar{
+    background-color: gray;
+    color: #f4f4f4;
+}
+
+#navar ul:hover{
+    padding: 0;
+    list-style: none;
+    
+}
+
+#navar .login{
+    float: right;
+    background-color: rgb(62, 62, 158);
+    border-radius: 5px;
+    
+}
+
+#navar .login:hover{
+    color: aqua;
+}
+
+#navar li{
+    display: inline;
+}
+
+#navar a{
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+}
+
+#showcase{
+    background-image: url(./TECHCOMPANY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;  /*para nindot siya tan awon sa mobile*/
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: #f4f4f4;
+    font-size: 35px;
+    line-height: 1.6em;
+    padding: 20px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: rgb(204, 196, 196);
+    color: #f4f4f4;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#main-footer{
+    background: rgb(29, 28, 28);
+    color: #f4f4f4;
+    text-align: center;
+    padding: 5px;
+    margin-top: 300px;
+}
+
+#main-header h1{
+    font-size: x-large;
+}
+
+@media(max-width :500px){
+
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+
+
+}
+
+
+#showcase h1 {
+    color: aqua;
+}
